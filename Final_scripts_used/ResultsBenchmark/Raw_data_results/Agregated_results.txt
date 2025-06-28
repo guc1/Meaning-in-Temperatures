@@ -1,0 +1,343 @@
+#######################################
+3B model:
+-----------------------------------
+Non-finetuned model not parsed:
+
+Normal data set:
+
+NON :  0.02%
+Wrongly : 14.37%
+correct : 18.56%
+prompt and correct: 23.48%
+
+1pctco2 data set:
+
+NON :  0.00%
+Wrongly : 9.88%
+correct : 13.09%
+prompt and correct: 19.40%
+
+-------------------------
+Non-finetuned model parsed:
+
+Normal data set:
+
+NON : 1.11% 
+Wrongly : 20.45%
+correct : 28.59% 
+prompt and correct: 31.24%.
+
+1pctco2 data set:
+NON : 0.00%
+Wrongly : 16.64%
+correct : 25.97%
+prompt and correct: 26.96%.
+
+
+
+
+
+--------------------------------
+
+Fine tuned models:
+
+
+Normal data set:
+
+NON : 7.68%          
+Wrongly: 36.11%
+correct : 27.39%
+prompt and correct: 37.85%
+
+
+1pctco2 data set:
+
+NON : 5.03% 
+Wrongly: 30.05%
+correct : 13.89%
+prompt and correct: 21.67%
+
+----------------------------------
+
+
+
+
+#######################################
+7B model:
+-----------------------------------
+Non-finetuned model:
+
+Normal data set:
+
+NON : 0.06%
+Wrongly: 13.28%
+correct : 11.94%
+prompt and correct: 23.68%
+
+1pctco2 data set:
+NON : 0.00%
+Wrongly: 15.25%
+correct : 12.77%
+prompt and correct: 7.62%
+
+-------------------------
+Non-finetuned model parsed:
+
+Normal data set:
+
+NON : 9.65%.
+Wrongly : 31.50%.
+correct : 36.91%.
+prompt and correct: 32.20%
+
+1pctco2 data set:
+NON : 0.00%
+Wrongly: 28.37%.
+correct : 30.34% 
+prompt and correct: 23.07%.
+
+
+
+--------------------------------
+
+Fine tuned models:
+
+
+Normal data set:
+
+NON :  37.05%
+Wrongly : 40.75%
+correct : 44.95%
+prompt and correct: 43.39%
+
+1pctco2 data set:
+NON : 14.45%
+Wrongly : 14.11%
+correct : 20.74%
+prompt and correct: 16.23%
+
+----------------------------------
+
+
+
+
+
+
+
+
+
+
+
+NUMBERS OF OUTLIERS
+
+
+3B model
+
+------
+
+Non-finetuned model:
+
+Normal data set:
+
+NON : 265 / 312
+Wrongly:  1937 / 5735
+correct : 976 / 5366
+prompt and correct: 787 / 6089
+
+1pctco2 data set:
+NON : 73 / 73
+Wrongly:  451 / 1111
+correct : 194 / 964
+prompt and correct: 232 / 1496
+
+-----------------------
+
+Fine tuned models:
+
+Normal data set:
+
+NON : 5940 / 7643
+Wrongly:  6 / 7920
+correct : 421 / 7920
+prompt and correct: 2 / 7920
+
+
+1pctco2 data set:
+
+NON : 1432 / 1734
+Wrongly:  117 / 1800
+correct : 617 / 1800
+prompt and correct: 353 / 1800
+
+
+-------------
+
+
+
+
+
+
+
+
+7B model
+
+------
+
+Non-finetuned model:
+
+Normal data set:
+
+NON : 796 / 1072
+Wrongly:  861 / 3925
+correct : 462 / 3092
+prompt and correct: 796 / 5973
+
+1pctco2 data set:
+NON : 207 / 210
+Wrongly: 164 / 1063
+correct :  123 / 846
+prompt and correct: 147 / 634
+
+
+-----------------------
+
+Fine tuned models:
+
+Normal data set:
+
+NON : 94 /1800          
+Wrongly: 0 / 7920
+correct :  0 / 7920
+prompt and correct: 0 / 7920
+
+
+1pctco2 data set:
+
+NON : 536 / 1800
+Wrongly: 491 / 1800
+correct : 347 / 1800
+prompt and correct: 501 / 1800
+
+
+
+
+
+
+
+
+
+
+################################
+
+MSE for 3B normal and 7B normal +finetuned
+
+
+--------------------------------
+3B
+
+normal data set
+
+Non-finetuned model:
+
+NON : 60.6769 K
+Wrongly:  4.2788 K
+correct : 2.9447 K
+prompt and correct: 4.5641 K
+
+finetuned model:
+
+NON : 40.9371 K
+Wrongly:  1.7233 K
+correct : 2.3903 K
+prompt and correct: 1.5442 K
+
+--------------------------------
+7B 
+
+Non-finetuned model:
+
+NON : 29.7753 K
+Wrongly:  2.6767 K
+correct : 1.9028 K
+prompt and correct: 2.4791 K
+
+finetuned model:
+
+NON : 1.7155 K
+Wrongly:  1.3172 K
+correct : 1.1143 K 
+prompt and correct: 1.2172 K
+
+
+
+
+--------------------------------
+3B
+
+1pctco2 data set
+
+Non-finetuned model:
+
+NON : 44.8600 K
+Wrongly:  5.4428 K
+correct : 3.2749 K 
+prompt and correct: 4.4807 K
+
+finetuned model:
+
+NON :  50.7930 K 
+Wrongly:   2.1760 K
+correct :  4.0576 K
+prompt and correct: 3.1009 K
+
+--------------------------------
+7B 
+
+Non-finetuned model:
+
+NON :  17.8771 K
+Wrongly: 2.6326 K
+correct : 2.3268 K
+prompt and correct: 3.7930 K
+
+finetuned model:
+
+NON : 3.8627 K
+Wrongly:  3.7562 K
+correct : 3.0986 K
+prompt and correct: 3.6246 K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Un-parsed lines per subset (rounded to the nearest row)
+
+Model	Forcing-set	Sub-set	Un-parsed lines
+3 B non-FT	Normal (7 920 rows each)	NON	7 777
+WRONG	2 355
+CORRECT	2 779
+PROMPT + CORRECT	1 967
+1 % CO₂ (1 800 rows each)	NON	1 800
+WRONG	** 731**
+CORRECT	** 893**
+PROMPT + CORRECT	** 505**
+7 B non-FT	Normal (7 920 rows each)	NON	7 871
+WRONG	4 581
+CORRECT	5 358
+PROMPT + CORRECT	2 096
+1 % CO₂ (1 800 rows each)	NON	1 800
+WRONG	** 832**
+CORRECT	1 042
+PROMPT + CORRECT	1 205
+

@@ -1,0 +1,83 @@
+Versatile Temperature-Prediction Benchmark Report
+===============================================
+
+--- RESULTS (Celsius→Kelvin Conversion) ---
+Samples benchmarked: 1800
+  - Predictions parsed: 964
+  - Unparsable predictions: 836
+Penalty β  : 8.0
+Cut-off    : 5.0 K
+Pts/sample : 100
+
+▶ OVERALL RESULT
+  Score: 23899.7 / 180000 pts  →  13.28%
+
+▶ AGGREGATE METRICS
+  MAE  : 4.0284 K
+RMSE : 8.6938 K
+R²   : -15.9133
+  Outliers (error ≥ 5.0 K) : 194 / 964
+
+▶ SCORE EXCLUDING ZERO-POINT SAMPLES
+  Score: 31.04% on 770 samples
+
+▶ SCORE EXCLUDING WORST X%
+  Excluding worst 10% (180 samples): nan% on 1620 samples
+  Excluding worst 20% (360 samples): nan% on 1440 samples
+  Excluding worst 30% (540 samples): nan% on 1260 samples
+  Excluding worst 40% (720 samples): nan% on 1080 samples
+  Excluding worst 50% (900 samples): nan% on 900 samples
+  Excluding worst 60% (1080 samples): nan% on 720 samples
+  Excluding worst 70% (1260 samples): nan% on 540 samples
+  Excluding worst 80% (1440 samples): nan% on 360 samples
+  Excluding worst 90% (1620 samples): nan% on 180 samples
+
+▶ SCORE WITH DIFFERENT PENALTY
+  Penalty 1: 19.12%
+  Penalty 3: 15.88%
+  Penalty 5: 14.47%
+  Penalty 7: 13.61%
+  Penalty 10: 12.75%
+  Penalty 15: 11.86%
+  Penalty 20: 11.27%
+
+--- RESULTS (Kelvin-Strict Parsing) ---
+Samples benchmarked: 1800
+  - Predictions parsed: 907
+  - Unparsable predictions: 893
+Penalty β  : 8.0
+Cut-off    : 5.0 K
+Pts/sample : 100
+
+▶ OVERALL RESULT
+  Score: 23563.3 / 180000 pts  →  13.09%
+
+▶ AGGREGATE METRICS
+  MAE  : 3.2749 K
+RMSE : 7.1114 K
+R²   : -10.3433
+  Outliers (error ≥ 5.0 K) : 153 / 907
+
+▶ SCORE EXCLUDING ZERO-POINT SAMPLES
+  Score: 31.25% on 754 samples
+
+▶ SCORE EXCLUDING WORST X%
+  Excluding worst 10% (180 samples): nan% on 1620 samples
+  Excluding worst 20% (360 samples): nan% on 1440 samples
+  Excluding worst 30% (540 samples): nan% on 1260 samples
+  Excluding worst 40% (720 samples): nan% on 1080 samples
+  Excluding worst 50% (900 samples): nan% on 900 samples
+  Excluding worst 60% (1080 samples): nan% on 720 samples
+  Excluding worst 70% (1260 samples): nan% on 540 samples
+  Excluding worst 80% (1440 samples): nan% on 360 samples
+  Excluding worst 90% (1620 samples): nan% on 180 samples
+
+▶ SCORE WITH DIFFERENT PENALTY
+  Penalty 1: 18.83%
+  Penalty 3: 15.65%
+  Penalty 5: 14.26%
+  Penalty 7: 13.41%
+  Penalty 10: 12.57%
+  Penalty 15: 11.69%
+  Penalty 20: 11.12%
+

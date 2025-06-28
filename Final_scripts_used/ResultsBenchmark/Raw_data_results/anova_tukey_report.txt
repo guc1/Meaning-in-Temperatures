@@ -1,0 +1,33 @@
+==== TWO-WAY ANOVA (Score ~ Context * Model) ====
+                           sum_sq        df             F  PR(>F)
+C(Context)           7.496557e+06       3.0   5634.937616     0.0
+C(Model)             1.755200e+07       3.0  13193.314346     0.0
+C(Context):C(Model)  1.977477e+06       9.0    495.470251     0.0
+Residual             5.618777e+07  126704.0           NaN     NaN
+
+==== Tukey HSD (Context contrasts within each Model) ====
+  Model  group1 group2  meandiff  p-adj    lower    upper  reject
+  3B-FT CORRECT    NON  -19.6870 0.0000 -20.5906 -18.7835    True
+  3B-FT CORRECT PROMPT   10.4853 0.0000   9.5817  11.3888    True
+  3B-FT CORRECT  WRONG    8.7439 0.0000   7.8403   9.6474    True
+  3B-FT     NON PROMPT   30.1723 0.0000  29.2688  31.0759    True
+  3B-FT     NON  WRONG   28.4309 0.0000  27.5274  29.3345    True
+  3B-FT  PROMPT  WRONG   -1.7414 0.0000  -2.6449  -0.8378    True
+3B-base CORRECT    NON  -18.5439 0.0000 -19.3825 -17.7054    True
+3B-base CORRECT PROMPT    4.9117 0.0000   4.0731   5.7503    True
+3B-base CORRECT  WRONG   -4.1951 0.0000  -5.0336  -3.3565    True
+3B-base     NON PROMPT   23.4556 0.0000  22.6171  24.2942    True
+3B-base     NON  WRONG   14.3489 0.0000  13.5103  15.1874    True
+3B-base  PROMPT  WRONG   -9.1068 0.0000  -9.9453  -8.2682    True
+  7B-FT CORRECT    NON   -7.8977 0.0000  -8.7750  -7.0204    True
+  7B-FT CORRECT PROMPT   -1.5515 0.0000  -2.4288  -0.6741    True
+  7B-FT CORRECT  WRONG   -4.1920 0.0000  -5.0693  -3.3147    True
+  7B-FT     NON PROMPT    6.3462 0.0000   5.4689   7.2235    True
+  7B-FT     NON  WRONG    3.7057 0.0000   2.8283   4.5830    True
+  7B-FT  PROMPT  WRONG   -2.6405 0.0000  -3.5179  -1.7632    True
+7B-base CORRECT    NON  -11.8760 0.0000 -12.6929 -11.0591    True
+7B-base CORRECT PROMPT   11.7402 0.0000  10.9233  12.5571    True
+7B-base CORRECT  WRONG    1.3426 0.0001   0.5257   2.1595    True
+7B-base     NON PROMPT   23.6162 0.0000  22.7993  24.4332    True
+7B-base     NON  WRONG   13.2186 0.0000  12.4017  14.0355    True
+7B-base  PROMPT  WRONG  -10.3976 0.0000 -11.2146  -9.5807    True

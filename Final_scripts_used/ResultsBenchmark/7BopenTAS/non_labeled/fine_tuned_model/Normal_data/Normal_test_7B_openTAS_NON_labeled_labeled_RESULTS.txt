@@ -1,0 +1,83 @@
+Versatile Temperature-Prediction Benchmark Report
+===============================================
+
+--- RESULTS (Celsius→Kelvin Conversion) ---
+Samples benchmarked: 7920
+  - Predictions parsed: 7920
+  - Unparsable predictions: 0
+Penalty β  : 8.0
+Cut-off    : 5.0 K
+Pts/sample : 100
+
+▶ OVERALL RESULT
+  Score: 293417.2 / 792000 pts  →  37.05%
+
+▶ AGGREGATE METRICS
+  MAE  : 1.7155 K
+RMSE : 2.6407 K
+R²   : -2.3117
+  Outliers (error ≥ 5.0 K) : 94 / 7920
+
+▶ SCORE EXCLUDING ZERO-POINT SAMPLES
+  Score: 37.49% on 7826 samples
+
+▶ SCORE EXCLUDING WORST X%
+  Excluding worst 10% (792 samples): 40.39% on 7128 samples
+  Excluding worst 20% (1584 samples): 43.62% on 6336 samples
+  Excluding worst 30% (2376 samples): 47.10% on 5544 samples
+  Excluding worst 40% (3168 samples): 50.91% on 4752 samples
+  Excluding worst 50% (3960 samples): 55.18% on 3960 samples
+  Excluding worst 60% (4752 samples): 59.80% on 3168 samples
+  Excluding worst 70% (5544 samples): 65.37% on 2376 samples
+  Excluding worst 80% (6336 samples): 72.74% on 1584 samples
+  Excluding worst 90% (7128 samples): 82.85% on 792 samples
+
+▶ SCORE WITH DIFFERENT PENALTY
+  Penalty 1: 52.26%
+  Penalty 3: 43.94%
+  Penalty 5: 40.23%
+  Penalty 7: 37.93%
+  Penalty 10: 35.63%
+  Penalty 15: 33.20%
+  Penalty 20: 31.61%
+
+--- RESULTS (Kelvin-Strict Parsing) ---
+Samples benchmarked: 7920
+  - Predictions parsed: 7920
+  - Unparsable predictions: 0
+Penalty β  : 8.0
+Cut-off    : 5.0 K
+Pts/sample : 100
+
+▶ OVERALL RESULT
+  Score: 293417.2 / 792000 pts  →  37.05%
+
+▶ AGGREGATE METRICS
+  MAE  : 1.7155 K
+RMSE : 2.6407 K
+R²   : -2.3117
+  Outliers (error ≥ 5.0 K) : 94 / 7920
+
+▶ SCORE EXCLUDING ZERO-POINT SAMPLES
+  Score: 37.49% on 7826 samples
+
+▶ SCORE EXCLUDING WORST X%
+  Excluding worst 10% (792 samples): 40.39% on 7128 samples
+  Excluding worst 20% (1584 samples): 43.62% on 6336 samples
+  Excluding worst 30% (2376 samples): 47.10% on 5544 samples
+  Excluding worst 40% (3168 samples): 50.91% on 4752 samples
+  Excluding worst 50% (3960 samples): 55.18% on 3960 samples
+  Excluding worst 60% (4752 samples): 59.80% on 3168 samples
+  Excluding worst 70% (5544 samples): 65.37% on 2376 samples
+  Excluding worst 80% (6336 samples): 72.74% on 1584 samples
+  Excluding worst 90% (7128 samples): 82.85% on 792 samples
+
+▶ SCORE WITH DIFFERENT PENALTY
+  Penalty 1: 52.26%
+  Penalty 3: 43.94%
+  Penalty 5: 40.23%
+  Penalty 7: 37.93%
+  Penalty 10: 35.63%
+  Penalty 15: 33.20%
+  Penalty 20: 31.61%
+
